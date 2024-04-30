@@ -4,7 +4,7 @@ This is a simple application that visualizes hierarchical data as a tree using D
 
 ## Prerequisites
 
-- Node.js: You can check if you have Node.js installed, and which version, by running `node -v` in your terminal. If you don't have Node.js installed, you can find instructions for installing it on the [official Node.js website](https://nodejs.org/).
+- Node.js: This project was developed with Node.js version 16.15.1. You can check if you have Node.js installed, and which version, by running `node -v` in your terminal. If you don't have Node.js installed, you can find instructions for installing it on the [official Node.js website](https://nodejs.org/).
 - npm (Node Package Manager): This comes bundled with Node.js. You can check if you have npm installed by running `npm -v` in your terminal.
 - Vue CLI (Optional): If you need to serve the application or perform other tasks that require Vue CLI, you can check if you have it installed by running `vue --version` in your terminal. If you don't have Vue CLI installed, you can install it by running `npm install -g @vue/cli`.
 
@@ -20,7 +20,7 @@ This is a simple application that visualizes hierarchical data as a tree using D
 Replace `<port>` with the port number your Express.js server is running on.
 3. Once the tree visualization is loaded, you can interact with it by clicking on the nodes. Clicking on a node will display a popup with its description.
 
-## License
-This project is licensed under the MIT License.
-
-```
+## Testing
+1. This project uses [Jest](https://jestjs.io/) for testing.
+2. The file `server.test.js` contains a test for the server /data route. It uses supertest to make requests to the server and check the responses.
+3. To run the tests, use `npm test`.

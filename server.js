@@ -25,16 +25,6 @@ const data = {
       "parent":"A"
       },
       {
-        "name":"E",
-        "description":"This is a description of E",
-        "parent":"A"
-      },
-      {
-        "name":"F",
-        "description":"This is a description of F",
-        "parent":"A"
-      },
-      {
       "name":"B-1",
       "description":"This is a description of B-1",
       "parent":"B"
@@ -49,16 +39,6 @@ const data = {
       "description":"This is a description of B-3",
       "parent":"B"
       },
-      {
-        "name":"B-4",
-        "description":"This is a description of B-4",
-        "parent":"B"
-      },
-      {
-        "name":"E-1",
-        "description":"This is a description of E-1",
-        "parent":"E"
-      }
   ]
 }
 
