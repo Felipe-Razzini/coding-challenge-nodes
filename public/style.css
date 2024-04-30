@@ -1,13 +1,29 @@
 body {
   margin: 0;
+  background: #f9f9f9;
 }
 
 #app {
   display: flex;
-  background: #f9f9f9;
   justify-content: end;
   position: relative;
   font-family: Calibri, sans-serif;
+}
+
+@media (max-width: 700px) {
+  #app {
+    justify-content: start;
+  }
+}
+
+.tree-container {
+  transform: translate(100px, 50px);
+}
+
+@media (max-width: 700px) {
+  .tree-container {
+    transform: translate(120px, 120px);
+  }
 }
 
 #popup {

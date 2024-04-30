@@ -2,9 +2,11 @@
 
 This is a simple application that visualizes hierarchical data as a tree using D3.js, Vue.js and Express.js.
 
+The application is deployed with Azure and can be accessed [here](https://coding-challenge-nodes-2.azurewebsites.net/).
+
 ## Prerequisites
 
-- Node.js: This project was developed with Node.js version 16.15.1. You can check if you have Node.js installed, and which version, by running `node -v` in your terminal. If you don't have Node.js installed, you can find instructions for installing it on the [official Node.js website](https://nodejs.org/).
+- Node.js: This project was developed with Node.js version 18.20.2. You can check if you have Node.js installed, and which version, by running `node -v` in your terminal. If you don't have Node.js installed, you can find instructions for installing it on the [official Node.js website](https://nodejs.org/).
 - npm (Node Package Manager): This comes bundled with Node.js. You can check if you have npm installed by running `npm -v` in your terminal.
 - Vue CLI (Optional): If you need to serve the application or perform other tasks that require Vue CLI, you can check if you have it installed by running `vue --version` in your terminal. If you don't have Vue CLI installed, you can install it by running `npm install -g @vue/cli`.
 

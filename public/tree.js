@@ -19,7 +19,7 @@ function createSvgContainer() {
     .attr("width", 700)
     .attr("height", 600)
     .append("g")
-    .attr("transform", "translate(100,50)");
+    .attr("class", "tree-container");
 }
 
 function createTreeLayout() {

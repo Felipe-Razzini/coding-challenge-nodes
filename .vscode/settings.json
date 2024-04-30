@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/0f218a99-4fc9-45d1-8a5d-96661cf4712b/resourceGroups/europe/providers/Microsoft.Web/sites/coding-challenge-nodes",
+  "appService.deploySubpath": "."
+}
